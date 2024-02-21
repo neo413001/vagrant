@@ -32,6 +32,14 @@ pipeline:
                   timeout: ""
                   type: Run
               - step:
+                  type: RunTests
+                  name: Run Ruby Tests
+                  identifier: Run_Ruby_Tests
+                  spec:
+                    language: Ruby
+                    buildTool: Rspec
+                    runOnlySelectedTests: true
+              - step:
                   identifier: gotestreport
                   name: go_test_report
                   spec:
