@@ -1,6 +1,7 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: BUSL-1.1
-
+# inserts TI comment
+# inserts another comment
 module Vagrant
   module Plugin
     module V2
